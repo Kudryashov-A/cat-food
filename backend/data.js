@@ -1,0 +1,46 @@
+module.exports = {
+  products: [
+    {
+      _id: '1',
+      header: 'Сказочное заморское яство',
+      brand: 'Нямушка',
+      taste: 'с фуа-гра',
+      portion_count: '10',
+      gift_name: 'мышь',
+      gift_count: '',
+      extra: '',
+      weight: '0,5',
+      weight_unit: 'кг',
+      description: 'Печень утки разварная с артишоками.',
+      stock_count: 3,
+    },
+    {
+      _id: '2',
+      header: 'Сказочное заморское яство',
+      brand: 'Нямушка',
+      taste: 'с рыбой',
+      portion_count: '40',
+      gift_name: 'мыши',
+      gift_count: '2',
+      extra: '',
+      weight: '2',
+      weight_unit: 'кг',
+      description: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
+      stock_count: 5,
+    },
+    {
+      _id: '3',
+      header: 'Сказочное заморское яство',
+      brand: 'Нямушка',
+      taste: 'с курой',
+      portion_count: '100',
+      gift_name: 'мышей',
+      gift_count: '5',
+      extra: '',
+      weight: '5',
+      weight_unit: 'кг',
+      description: 'Филе из цыплят с трюфелями в бульоне.',
+      stock_count: 0,
+    }
+  ]
+}
